@@ -15,20 +15,6 @@
         <card :text="motto"></card>
       </div>
     </div>
-
-    <form class="form-container">
-      <input type="text" class="form-control" :value="motto" placeholder="v-model" />
-      <input type="text" class="form-control" v-model="motto" placeholder="v-model" />
-      <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
-    </form>
-
-
-    <div class="all">
-        <div class="left">
-        </div>
-        <div class="right">
-        </div>
-    </div>
   </div>
 </template>
 
